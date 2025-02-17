@@ -1,0 +1,9 @@
+DATA CLEANING
+To-Do List
+1. Check for null values 
+2. Check for unique values
+3. Check for duplicates 
+4. Check for outliers
+5. check fot text to be lowercase
+6. Standardize date type columns
+
