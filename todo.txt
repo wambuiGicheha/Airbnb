@@ -6,4 +6,7 @@ To-Do List
 4. Check for outliers
 5. check fot text to be lowercase
 6. Standardize date type columns
-
+7. Scale the numerical figures 
+8. Remove the slashes in the room_type columns
+The listings.csv is good for visualizations
+The reviews and listings linked together to facilitate time based analytics and visualisations linked to a listing
