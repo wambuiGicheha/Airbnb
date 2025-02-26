@@ -34,6 +34,20 @@ Cape Town's short-term rental market is competitive, with hosts seeking ways to 
 - **Detailed Calendar Data** – Booking patterns, seasonality, and price fluctuations.
 - **GeoJSON File of Neighborhoods** – Spatial analysis of Airbnb listings' impact on different areas.
 
+
+## Dataset Handling Instructions
+- The `user_reviews.csv` file is **not tracked by Git** to prevent large file issues. Ensure it is placed in the `Data/` folder before running sentiment analysis.
+- To check if the dataset is ignored by Git, run:
+  ```bash
+  git check-ignore -v data/
+  ```
+- If the file is accidentally committed, remove it using:
+  ```bash
+  git rm -r --cached data/
+  git commit -m "Stop tracking data directory"
+  ```
+- Consider using **Git LFS** for handling large files if necessary.
+
 ## Expected Outcomes
 - A pricing recommendation system for Airbnb hosts.
 - Insights into the best-performing neighborhoods for Airbnb investments.
@@ -57,6 +71,19 @@ Clone the repository and install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+## How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone <repo_url>
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd Inside-Airbnb-Analysis
+   ```
+3. Ensure `user_reviews.csv` is placed in the `data/` folder.
+4. Run Jupyter Notebook:
+   ```bash
+   jupyter notebook
 
 ### Running the Project
 1. Load the dataset and perform exploratory data analysis (EDA).
@@ -68,5 +95,6 @@ pip install -r requirements.txt
 - Keziah Gicheha
 - Contact: keziahgicheha@gmail.com
 
-
+## License
+This project is for educational purposes and follows the data usage policies of Inside Airbnb.
 
